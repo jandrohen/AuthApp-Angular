@@ -6,3 +6,9 @@ export interface authResponse{
   token?:string;
   msg?: string;
 }
+
+export interface Usuario {
+  uid: string;
+  name: string;
+
+}
